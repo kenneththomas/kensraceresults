@@ -8,6 +8,7 @@ rdf2 = rdf
 
 ages = rdf2.Age.unique()
 final = pandas.DataFrame(columns=['Age'])
+displaycolumns = ['Age','100m','200m','400m','600m','800m','1000m','1 Mile','2 Mile','5K']
 
 for age in ages:
     agedf = rdf2[rdf2['Age']==age]
@@ -19,9 +20,13 @@ for age in ages:
         racedf = agedf[agedf['Distance']==race]
         seasonbest = racedf['Time'].min()
         seasonbests[race] = seasonbest
+        for a in displaycolumns:
+            if a not in seasonbests.keys():
+                seasonbests[a] = '-'
 
     final = final.append(seasonbests,ignore_index=True)
     final = final.replace(numpy.nan, '', regex=True)
+    final = final[displaycolumns]
 
 
     print(seasonbests)
