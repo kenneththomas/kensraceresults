@@ -35,9 +35,16 @@ print(final)
 agebests = final.to_html(index=False)
 html = rdf.to_html(index=False)
 webpage = open('index.html','w')
+webpage.write('''
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+''')
+webpage.write('<body>')
 webpage.write('<h1>PR by Age</h1>')
 webpage.write(agebests)
 webpage.write('<br/>')
 webpage.write('<h1>All Results</h1>')
 webpage.write(html)
+webpage.write('</body>')
 webpage.close()

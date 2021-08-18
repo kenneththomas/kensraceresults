@@ -1,0 +1,17 @@
+body {
+    background-color: #e5f7e9;
+  }
+  h1 {
+    color: rgb(24, 24, 26);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  th {
+    color: white;
+    background-color: rgb(77, 75, 75);
+    font-family:monospace;
+    font-size: 18;
+    text-align: left;
+  }
+  td {
+    font-family:monospace;
+  }
