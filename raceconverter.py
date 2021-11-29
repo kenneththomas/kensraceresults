@@ -39,12 +39,14 @@ webpage.write('''
 <head>
   <link rel="stylesheet" href="style.css">
 </head>
+<body>
+<h1>PR by Age</h1>
 ''')
-webpage.write('<body>')
-webpage.write('<h1>PR by Age</h1>')
 webpage.write(agebests)
-webpage.write('<br/>')
-webpage.write('<h1>All Results</h1>')
+webpage.write('''
+<br/>
+<h1>All Results</h1>
+''')
 webpage.write(html)
 webpage.write('</body>')
 webpage.close()
