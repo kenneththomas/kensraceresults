@@ -1,4 +1,7 @@
 ﻿Distance,Time,Race,Venue,City,Date,Age,Course,Timing
+400m,56.94,Hellgate August,Astoria Park Track,"Astoria, NY",8/31/2022,29,Track,Self
+3200m,10:49,Hellgate August,Astoria Park Track,"Astoria, NY",8/31/2022,29,Track,Self(Split within 14:43 4K)
+1 Mile,4:43,Jackson Heights Mile,34th Ave,"Jackson Heights, NY",8/27/2022,29,Road,Electronic
 1 Mile,4:43,Brooklyn Mile,Astoria Park Track,"Astoria, NY",8/7/2022,29,Road,Electronic
 5 Mile,29:04,NYRR Team Champs,Central Park,"New York, NY",7/31/2022,29,Road,Electronic
 800m,2:08.9,5:50AM 800m,Astoria Park Track,"Astoria, NY",7/20/2022,29,Track,Self
@@ -11,7 +14,7 @@ Half Marathon,1:23:09,Brooklyn Half Marathon,Prospect Park,"Brooklyn, NY",5/21/2
 1 Mile,4:54,Front Runners Indoor,The Armory,"Washington Heights, NY",3/27/2022,28,Indoor,Electronic
 1000m,2:53,FRNY 1000m TuneUp,Astoria Park Track,"Astoria, NY",3/19/2022,28,Track,Hand
 5K,17:55,Washington Heights 5K,Fort Washington Ave,"Washington Heights, NY",3/6/2022,28,Road,Electronic
-2 Mile,11:10,WaHi 3200m TuneUp,Astoria Park Track,"Astoria, NY",2/27/2022,28,Track,Hand
+3200m,11:10,WaHi 3200m TuneUp,Astoria Park Track,"Astoria, NY",2/27/2022,28,Track,Hand
 7.1Mi,44:42,GSB Mardi Gras,Great South Bay Brewery,"Bay Shore, NY",2/14/2022,28,Road,Electronic
 5K,18:09,Tempo 5K for an easy PR,Astoria Park Track,"Astoria, NY",12/30/2021,28,Track,Hand
 5x200m,2:29,NYRR Night At The Races #1,The Armory,"Washington Heights, NY",12/16/2021,28,Indoor,Electronic
@@ -34,7 +37,7 @@ Half Marathon,1:26:26,Baltimore Running Festival,Inner Harbor,"Baltimore, MD",10
 300m,42.4,NYE Solo Sprinting,Astoria Park Track,"Astoria, NY",12/31/2020,27,Track,Self
 100m,12.7,Max V Training,Astoria Park Track,"Astoria, NY",12/5/2020,27,Track,Self
 5K,18:29,Gobble Gobble Mfka 5k,Astoria Park Track,"Astoria, NY",11/25/2020,27,Track,Self
-2 Mile,11:34,2 Mile TT #1,Astoria Park Track,"Astoria, NY",11/9/2020,27,Track,Self
+3200m,11:34,2 Mile TT #1,Astoria Park Track,"Astoria, NY",11/9/2020,27,Track,Self
 1 Mile,5:17,Mile TT #4,Astoria Park Track,"Astoria, NY",10/28/2020,27,Track,Self
 800m,2:20,800m TT #2,Astoria Park Track,"Astoria, NY",10/22/2020,27,Track,Self
 1000m,3:06,Summers Over Festival,Astoria Park Track,"Astoria, NY",9/16/2020,27,Track,Self
