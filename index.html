@@ -1,10 +1,16 @@
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <title>Ken's Race Results</title>
 </head>
 <body>
-<h1>PR by Age</h1>
-<table border="1" class="dataframe">
+  <div class="container">
+    <h1>PR by Age</h1>
+    <table border="1" class="dataframe table">
   <thead>
     <tr style="text-align: right;">
       <th>Age</th>
@@ -130,9 +136,10 @@
     </tr>
   </tbody>
 </table>
-<br/>
-<h1>All Results</h1>
-<table border="1" class="dataframe">
+    <br />
+    <h1>All Results</h1>
+    <input type="text" id="filterInput" placeholder="Search for races...">
+    <table border="1" class="dataframe table">
   <thead>
     <tr style="text-align: right;">
       <th>Distance</th>
@@ -147,6 +154,17 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>5K</td>
+      <td>17:38</td>
+      <td>Washington Heights 5K</td>
+      <td>Fort Washington Ave</td>
+      <td>Washington Heights, NY</td>
+      <td>3/5/2023</td>
+      <td>29</td>
+      <td>Road</td>
+      <td>Electronic</td>
+    </tr>
     <tr>
       <td>800m</td>
       <td>2:05.4</td>
@@ -907,4 +925,8 @@
       <td>Electronic</td>
     </tr>
   </tbody>
-</table></body>
+</table>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
